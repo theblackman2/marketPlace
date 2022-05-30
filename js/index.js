@@ -1,5 +1,15 @@
 const links = document.querySelectorAll(".link-more")
 const cards = document.querySelectorAll(".card")
+const logo = document.querySelector("#logo")
+
+
+logo.addEventListener("click", function(e){
+  e.preventDefault()
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+})
 
 Array.from(links).forEach((link)=>{
   link.addEventListener("mouseover", function(e){

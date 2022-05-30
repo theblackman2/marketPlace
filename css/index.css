@@ -11,6 +11,10 @@
   display: none;
 } */
 
+body{
+  scroll-behavior: smooth;
+}
+
 .main-head{
   width: 100%;
   height: 100vh;
@@ -334,6 +338,19 @@
   width: 80%;
   height: 130%;
   background-color: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.use-logo-top,
+.use-logo-bot{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .use-right{
